@@ -43,4 +43,19 @@ and select through the keypad (1, 2, 3, 4, etc.) the version of gcc and same for
 
     sudo update-alternatives --config g++
 
+### Step 4
+Unzip and untar alchemy-2.tar.gz with:
+    
+    tar xvfz alchemy-2.tgz
+    
+This creates a directory alchemy-2 which contains the source code and documentation.
+
+Next type the following 3 commands:
+
+    cd alchemy-2/bin/
+    make depend
+    make
+
+which will produce the executables learnstruct, learnwts, and infer in the directory alchemy-2/bin/.
+
 And that's it!!!!!
